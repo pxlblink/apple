@@ -24,7 +24,7 @@ export default function Header() {
           <div
             onMouseEnter={() => setMenuHovered(true)}
             onMouseLeave={() => setMenuHovered(false)}
-            className="absolute right-0 left-0 top-full bg-[rgb(255,255,255)]/80"
+            className="absolute right-0 left-0 top-full bg-white"
           >
             {menuContent}
           </div>
@@ -47,8 +47,40 @@ export default function Header() {
         <NavLinkAndMenu
           linkName={"Store"}
           menuContent={
-            <div>
-              <p>Store menu</p>
+            <div className="flex gap-10 px-40 pt-10 pb-20">
+              <div>
+                <p>Shop</p>
+                <ul className="font-semibold text-[22px]">
+                  <li>Shop the latest</li>
+                  <li>Mac</li>
+                  <li>iPad</li>
+                  <li>iPhone</li>
+                  <li>Apple Watch</li>
+                  <li>Apple Vision Pro</li>
+                  <li>AirPods</li>
+                  <li>Accessories</li>
+                </ul>
+              </div>
+              <div>
+                <p>quick links</p>
+                <ul className="font-semibold">
+                  <li>Find a Store</li>
+                  <li>Order Status</li>
+                  <li>Apple Trade In</li>
+                  <li>Financing</li>
+                  <li>Personal Setup</li>
+                </ul>
+              </div>
+              <div>
+                <p>Shop Special Stores</p>
+                <ul className="font-semibold">
+                  <li>Certified Refubrished</li>
+                  <li>Education</li>
+                  <li>Business</li>
+                  <li>Veterans and Military</li>
+                  <li>Government</li>
+                </ul>
+              </div>
             </div>
           }
         />
