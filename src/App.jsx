@@ -1,9 +1,8 @@
 import Header from "./components/Header";
 
 function App() {
-  return (
-    <>
-      <Header />
+  function HeroBanner() {
+    return (
       <div
         // className="bg-[url('./assets/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg')]
         className="bg-[url('./assets/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg')]
@@ -31,6 +30,12 @@ function App() {
           </div>
         </div>
       </div>
+    );
+  }
+
+  return (
+    <>
+      <Header />
     </>
   );
 }
