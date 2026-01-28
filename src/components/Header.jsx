@@ -33,29 +33,8 @@ export default function Header() {
     );
   }
 
-  function MacMenu() {
-    const [isHovered, setIsHovered] = useState(false);
-
-    return (
-      <div onMouseEnter={() => setIsHovered(true)}>
-        <a href="" className="border border-red-600">
-          Mac
-        </a>
-        {isHovered && (
-          <div
-            onMouseLeave={() => setIsHovered(false)}
-            className="absolute right-0 left-0 top-full bg-purple-500"
-          >
-            <p>Mac Menu</p>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-
   return (
-    <div className="flex relative justify-center bg-blue-200">
+    <div className="flex relative justify-center bg-[rgba(255, 225, 255, .8)]">
       <div className="flex gap-5 justify-center items-center border border-red-600">
         <svg
           className="border border-yellow-500"
