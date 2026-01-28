@@ -53,7 +53,6 @@ export default function Header() {
     );
   }
 
-  const [isOpen, setIsOpen] = useState([true, false]);
 
   return (
     <div className="flex relative justify-center bg-blue-200">
