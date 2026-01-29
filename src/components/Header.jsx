@@ -53,15 +53,15 @@ export default function Header() {
               <div className="flex fixed top-0 gap-10 px-40 pt-20 pb-20 w-full bg-white -z-10">
                 {content.menu.sections.map((item, i) => (
                   <div key={i}>
-                    <p className="mb-2 text-[12px]">{item.title}</p>
-                    <ul className="font-semibold text-[22px]">
+                    <p className="mb-4 text-gray-500 text-[13px]">{item.title}</p>
+                    <ul className="font-semibold text-gray-900 text-[22px]">
                       {item.largeContent.map((link, i) => (
-                        <li key={i}>{link}</li>
+                        <li className="mb-1" key={i}>{link}</li>
                       ))}
                     </ul>
-                    <ul className="font-semibold">
+                    <ul className="mt-5 font-semibold text-gray-800 text-[14px]">
                       {item.smallContent.map((link, i) => (
-                        <li key={i}>{link}</li>
+                        <li className="mb-1" key={i}>{link}</li>
                       ))}
                     </ul>
                   </div>
