@@ -45,8 +45,9 @@ function App() {
   return (
     <>
       <Header />
-      {bannerData.map((data) => (
+      {bannerData.map((data, i) => (
         <HeroBanner
+          key={i}
           header={data.header}
           subHeader={data.subHeader}
           btnOneText={data.btnOneText}
