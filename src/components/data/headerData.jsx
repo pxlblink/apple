@@ -57,10 +57,7 @@ export default [
             "Mac Pro",
             "Displays",
           ],
-          smallContent: [
-            "Compare mac",
-            "Switch from PC to Mac",
-          ],
+          smallContent: ["Compare mac", "Switch from PC to Mac"],
         },
         {
           title: "Shop Mac",
@@ -71,7 +68,7 @@ export default [
             "Mac Accessories",
             "Apple Trade In",
             "Financing",
-            "Personal Setup"
+            "Personal Setup",
           ],
         },
         {
@@ -89,6 +86,204 @@ export default [
             "Mac for Business",
             "Education",
           ],
+        },
+      ],
+    },
+  },
+  {
+    name: "iPad",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "iPhone",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "Watch",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "Vision",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "AirPods",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "TV & Home",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "Entertainment",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "Accessories",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+      ],
+    },
+  },
+  {
+    name: "Support",
+    menu: {
+      sections: [
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
+        },
+        {
+          title: "Test",
+          largeContent: [],
+          smallContent: [],
         },
       ],
     },
