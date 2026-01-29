@@ -32,7 +32,7 @@ export default function HeroBanner({
               {btnOneText}
             </a>
             <a
-              className="flex items-center text-blue-600 bg-transparent rounded-full border hover:text-white hover:bg-blue-600 borer-blue-600 py-1.75 px-3.75"
+              className="flex items-center text-blue-600 bg-transparent rounded-full border border-blue-600 hover:text-white hover:bg-blue-600 py-1.75 px-3.75"
               href=""
             >
               {btnTwoText}
