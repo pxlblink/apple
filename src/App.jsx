@@ -18,7 +18,7 @@ function App() {
     {
       header: "Apple Watch Series 11",
       subHeader:
-        "Turn resolutions into routines.\nQuit qutting your fitness goals.",
+        "Turn resolutions into routines. Quit qutting your fitness goals.",
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
