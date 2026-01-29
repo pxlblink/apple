@@ -1,4 +1,113 @@
+import Accordion from "./Accordion";
+
 export default function Footer() {
+  const footerLinks = [
+    {
+      title: "Shop and Learn",
+      links: [
+        "Store",
+        "Mac",
+        "iPad",
+        "iPhone",
+        "Watch",
+        "Vision",
+        "AirPods",
+        "TV & Home",
+        "AirTag",
+        "Accessores",
+        "Gift Cards",
+      ],
+    },
+    {
+      title: "Apple Wallet",
+      links: ["Wallet", "Apple Card", "Apple Pay", "Apple Cash"],
+    },
+    {
+      title: "Account",
+      links: [
+        "Manage Your Account Account",
+        "Apple Storage Account",
+        "iCloud.com",
+      ],
+    },
+    {
+      title: "Entertainment",
+      links: [
+        "Apple One",
+        "Apple TV",
+        "Apple Music",
+        "Apple Arcade",
+        "Apple Fitness+",
+        "Apple News+",
+        "Apple Podcasts",
+        "Apple Books",
+        "App Store",
+      ],
+    },
+    {
+      title: "Apple Store",
+      links: [
+        "Find a Store",
+        "Genius Bar",
+        "Today at Apple",
+        "Group Reservations",
+        "Apple Camp",
+        "Apple Store App",
+        "Certified Refurbished",
+        "Apple Trade In",
+        "Financing",
+        "Carrier Deals at Apple",
+        "Other Status",
+        "Shopping Help",
+      ],
+    },
+    {
+      title: "For Business",
+      links: ["Apple and Business", "Shop for Business"],
+    },
+    {
+      title: "For Education",
+      links: ["Apple and Education", "Shop for K-12", "Shop for College"],
+    },
+    {
+      title: "For Healthcare",
+      links: ["Apple and Healthcare"],
+    },
+    {
+      title: "For Government",
+      links: [
+        "Apple and Government",
+        "Shop for Veterans and Military",
+        "Shop for State and Local Employees",
+        "Shop for Federal Employees",
+      ],
+    },
+    {
+      title: "Apple Values",
+      links: [
+        "Accessibility",
+        "Education",
+        "Environment",
+        "Inclusive and Diversity",
+        "Privacy",
+        "Racial Equity and Justice",
+        "Supply Chain Innovation",
+      ],
+    },
+    {
+      title: "About apple",
+      links: [
+        "Newsroom",
+        "Apple Leadership",
+        "Career Opportunities",
+        "Investors",
+        "Ethics & Compliance",
+        "Events",
+        "Contact Apple",
+      ],
+    },
+  ];
+
   return (
     <div className="grid gap-2 py-4 px-4 md:px-6 text-[12px] text-[rgba(255,255,255,0.56)] bg-[rgb(29,29,31)] lg:px-35">
       <p>
@@ -51,6 +160,50 @@ export default function Footer() {
         Features are subject to change. Some features, applications, and
         services may not be available in all regions or all languages.
       </p>
+      <div>
+        {footerLinks.map((item) => (
+          <Accordion
+            title={item.title}
+            content={
+              <div>
+                {item.links.map((link) => (
+                  <a className="block my-2 hover:underline" href="">
+                    {link}
+                  </a>
+                ))}
+              </div>
+            }
+          />
+        ))}
+      </div>
+      <p className="pb-4 mt-3 md:border-b text-balance border-[rgba(255,255,255,0.24)]">
+        More ways to shop:{" "}
+        <a className="text-blue-400 underline" href="">
+          Find an Apple Store
+        </a>{" "}
+        or{" "}
+        <a className="text-blue-400 underline" href="">
+          other retailer
+        </a>{" "}
+        near you. Or call{" "}
+        <a className="text-blue-400 underline" href="">
+          1-800-MY-APPLE
+        </a>{" "}
+        (1-800-692-7753).
+      </p>
+      <div className="flex flex-col gap-2 lg:flex-row-reverse lg:justify-between lg:items-center">
+        <a className="my-2 text-gray-300 text-[.78rem]" href="">
+          United States
+        </a>
+        <a>Copyright © 2026 Apple Inc. All rights reserved.</a>
+      </div>
+      <div className="flex gap-4">
+        <a href="">Privacy Policy</a>
+        <a href="">Term of Use</a>
+        <a href="">Sales and Refunds</a>
+        <a href="">Legal</a>
+        <a href="">Site map</a>
+      </div>
     </div>
   );
 }
