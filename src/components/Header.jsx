@@ -34,7 +34,7 @@ export default function Header() {
   }
 
   return (
-    <div className="flex relative justify-center bg-[rgb(255,255,255)]/80">
+    <div className="flex sticky top-0 justify-center w-full bg-[rgb(255,255,255)]/80">
       <div className="flex gap-5 justify-center items-center">
         <svg
           height="48"
