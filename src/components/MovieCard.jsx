@@ -11,7 +11,7 @@ export default function MovieCard({
         "--img-path": `url(${imgPath})`,
         "--img-path-md": `url(${imgPathMd})`,
       }}
-      className="bg-blue-200 bg-center bg-no-repeat bg-cover w-[275px] h-[498px] bg-(image:--img-path) md:w-[688px] md:h-[368px] md:bg-(image:--img-path-md) lg:w-[930px] lg:h-[523px]"
+      className="bg-blue-200 bg-center bg-no-repeat bg-cover shrink-0 snap-center w-[275px] h-[498px] bg-(image:--img-path) md:w-[688px] md:h-[368px] md:bg-(image:--img-path-md) lg:w-[930px] lg:h-[523px]"
     >
       <div className="flex flex-col justify-between items-center w-full h-full text-center via-[rgba(200,200,200,.1)] to-[rgba(40,40,40,.6)] from-[rgba(20,20,20,.6)] bg-linear-to-t">
         <div className="flex flex-col gap-3 items-center pt-4 w-full md:invisible">
