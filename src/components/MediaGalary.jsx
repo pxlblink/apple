@@ -25,7 +25,8 @@ export default function MediaGalary() {
     },
     {
       imgPath: "../../public/images/movies/drops_of_god_thumb_274x496nr.jpg",
-      imgPathWide: "../../public/images/movies/drops_of_god_thumb_wide_1250x668sr.jpg",
+      imgPathWide:
+        "../../public/images/movies/drops_of_god_thumb_wide_1250x668sr.jpg",
       titlePath: "../../public/images/movies/drops_of_gods_title_220x54.png",
       genre: "Drama",
       subTitle: "New season.",
@@ -33,13 +34,15 @@ export default function MediaGalary() {
   ];
 
   return (
-    <div className="pb-8 bg-gray-100">
+    <div className="pb-8 bg-[#f5f5f7]">
       <div className="flex justify-center pt-8 pb-4">
-        <h2 className="text-3xl font-semibold">Endless entertainment.</h2>
+        <h2 className="py-3 text-3xl font-semibold lg:text-[56px]">
+          Endless entertainment.
+        </h2>
       </div>
 
       <div className="flex overflow-x-scroll gap-2 snap-x snap-mandatory scroll-smooth no-scrollbar">
-        {movesInfo.map(movie => (
+        {movesInfo.map((movie) => (
           <MovieCard
             imgPath={movie.imgPath}
             imgPathMd={movie.imgPathWide}
