@@ -161,13 +161,14 @@ export default function Footer() {
         services may not be available in all regions or all languages.
       </p>
       <div className="text-[rgba(0,0,0,0.88)]">
-        {footerLinks.map((item) => (
+        {footerLinks.map((item, i) => (
           <Accordion
+            key={i}
             title={item.title}
             content={
               <div>
-                {item.links.map((link) => (
-                  <a className="block my-2 hover:underline" href="">
+                {item.links.map((link, i) => (
+                  <a key={i} className="block my-2 hover:underline" href="">
                     {link}
                   </a>
                 ))}

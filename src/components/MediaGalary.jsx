@@ -42,8 +42,9 @@ export default function MediaGalary() {
       </div>
 
       <div className="flex overflow-x-scroll gap-2 snap-x snap-mandatory scroll-smooth no-scrollbar">
-        {moviesInfo.map((movie) => (
+        {moviesInfo.map((movie, i) => (
           <MovieCard
+            key={i}
             imgPath={movie.imgPath}
             imgPathMd={movie.imgPathWide}
             titlePath={movie.titlePath}
