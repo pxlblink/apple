@@ -10,11 +10,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Shop iPhone",
       bgImgUrl:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
     },
     {
       header: "Apple Watch Series 11",
@@ -23,11 +23,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
     },
     {
       header: "iPad air",
@@ -35,11 +35,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
+        "/public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
+        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
+        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
     },
   ];
 
@@ -50,11 +50,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Shop iPhone",
       bgImgUrl:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
     },
     {
       header: "Apple Watch Series 11",
@@ -63,11 +63,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
     },
     {
       header: "iPad air",
@@ -75,11 +75,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
+        "/public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
+        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
+        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
     },
     {
       header: "iPhone",
@@ -87,11 +87,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Shop iPhone",
       bgImgUrl:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
+        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
     },
     {
       header: "Apple Watch Series 11",
@@ -100,11 +100,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
+        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
     },
     {
       header: "iPad air",
@@ -112,11 +112,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
+        "/public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
       bgImgUrlSm:
-        "../public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
+        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
       bgImgUrlLg:
-        "../public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
+        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
     },
   ];
 
