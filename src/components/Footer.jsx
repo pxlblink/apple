@@ -109,7 +109,7 @@ export default function Footer() {
   ];
 
   return (
-    <div className="grid gap-2 py-4 px-4 md:px-6 text-[12px] text-[rgba(255,255,255,0.56)] bg-[rgb(29,29,31)] lg:px-35">
+    <div className="grid gap-2 py-4 px-4 md:px-6 text-[12px] text-[rgba(0,0,0,0.56)] bg-[#f5f5f7] lg:px-35">
       <p>
         1. Trade‑in values will vary based on the condition, year, and
         configuration of your eligible trade‑in device. Not all devices are
@@ -147,7 +147,7 @@ export default function Footer() {
       </p>
       <p>
         Learn more about how Apple Card applications are evaluated at{" "}
-        <a className="underline" href="">
+        <a className="underline text-[#000000B8]" href="">
           support.apple.com/kb/HT209218
         </a>
         .
@@ -160,7 +160,7 @@ export default function Footer() {
         Features are subject to change. Some features, applications, and
         services may not be available in all regions or all languages.
       </p>
-      <div>
+      <div className="text-[rgba(0,0,0,0.88)]">
         {footerLinks.map((item) => (
           <Accordion
             title={item.title}
@@ -192,7 +192,7 @@ export default function Footer() {
         (1-800-692-7753).
       </p>
       <div className="flex flex-col gap-2 lg:flex-row-reverse lg:justify-between lg:items-center">
-        <a className="my-2 text-gray-300 text-[.78rem]" href="">
+        <a className="my-2 hover:underline text-[.78rem]" href="">
           United States
         </a>
         <a>Copyright © 2026 Apple Inc. All rights reserved.</a>

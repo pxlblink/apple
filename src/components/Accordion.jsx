@@ -4,10 +4,10 @@ export default function Accordion({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="py-2 border-b border-[rgba(255,255,255,0.24)]">
+    <div className="py-2 border-b border-[rgba(0,0,0,0.16)]">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="flex justify-between w-full cursor-pointer text-[rgba(255,255,255,0.92)] text-[.8rem]"
+        className="flex justify-between w-full cursor-pointer text-[.8rem]"
       >
         <span>{title}</span>
         {isOpen ? <span>-</span> : <span>+</span>}
@@ -18,9 +18,7 @@ export default function Accordion({ title, content }) {
             isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
           }`}
       >
-        <div className="overflow-hidden px-4 text-[rgba(255,255,255,0.8)]">
-          {content}
-        </div>
+        <div className="overflow-hidden px-4">{content}</div>
       </div>
     </div>
   );
