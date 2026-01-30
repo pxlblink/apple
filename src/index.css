@@ -7,3 +7,25 @@
   --container-xl: 80rem;
   --container-2xl: 96rem;
 }
+
+/*
+Source - https://stackoverflow.com/a/70282887
+Posted by jasonleonhard, modified by community. See post 'Timeline' for change history
+Retrieved 2026-01-30, License - CC BY-SA 4.0
+*/
+
+/*
+    https://github.com/tailwindlabs/tailwindcss/discussions/2394
+    https://github.com/tailwindlabs/tailwindcss/pull/5732
+*/
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
