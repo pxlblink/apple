@@ -1,7 +1,7 @@
 import MovieCard from "./MovieCard";
 
 export default function MediaGalary() {
-  const movesInfo = [
+  const moviesInfo = [
     {
       imgPath: "/public/images/movies/plur1bus_thumb_274x496nr.jpg",
       imgPathWide: "/public/images/movies/plur1bus_thumb_wide_1250x668sr.jpg",
@@ -42,7 +42,7 @@ export default function MediaGalary() {
       </div>
 
       <div className="flex overflow-x-scroll gap-2 snap-x snap-mandatory scroll-smooth no-scrollbar">
-        {movesInfo.map((movie) => (
+        {moviesInfo.map((movie) => (
           <MovieCard
             imgPath={movie.imgPath}
             imgPathMd={movie.imgPathWide}
