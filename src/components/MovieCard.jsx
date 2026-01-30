@@ -23,7 +23,7 @@ export default function MovieCard({
         </div>
         <div className="flex flex-col-reverse items-center py-4 w-full text-white md:flex-row md:gap-4 md:py-8 md:pl-8 bg-blend-multiply">
           <a
-            className="inline-block px-4 mt-4 text-sm text-black bg-white rounded-full md:my-0 md:mt-0 py-[9px]"
+            className="inline-block px-4 mt-4 text-sm text-black bg-white rounded-full md:my-0 md:mt-0 shrink-0 py-[9px]"
             href=""
           >
             Stream now
