@@ -101,18 +101,18 @@ export default function Header() {
               id="globalnav-menutrigger-bread-bottom"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               points="2 12, 16 12"
             ></polyline>
             <polyline
               id="globalnav-menutrigger-bread-top"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               points="2 5, 16 5"
             ></polyline>
           </svg>
