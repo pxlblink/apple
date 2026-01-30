@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
 import Footer from "./components/Footer";
+import MediaGalary from "./components/MediaGalary";
 
 function App() {
   const bannerData = [
@@ -149,6 +150,7 @@ function App() {
           />
         ))}
       </div>
+      <MediaGalary />
       <Footer />
     </>
   );
