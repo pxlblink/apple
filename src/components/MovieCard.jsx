@@ -29,9 +29,10 @@ export default function MovieCard({
             Stream now
           </a>
           <div className="flex flex-col md:flex-row md:gap-2 item-center">
-            <p className="font-bold">{genre}</p>
-            <p className="hidden md:inline">•</p>
-            <p className="px-1 md:px-0 text-balance">{subTitle}</p>
+            <p className="px-1 md:px-0">
+              <span className="block font-bold md:inline">{genre}</span>{" "}
+              <span className="hidden md:inline">•</span> {subTitle}
+            </p>
           </div>
         </div>
       </div>
