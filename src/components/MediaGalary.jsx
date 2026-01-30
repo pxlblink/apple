@@ -16,6 +16,20 @@ export default function MediaGalary() {
       genre: "Thriller",
       subTitle: "A secret agent embarks on her most dangerous mission yet.",
     },
+    {
+      imgPath: "/public/images/movies/f1_thumb_274x496nr.jpg",
+      imgPathWide: "/public/images/movies/f1_thumb_wide_1250x668sr.jpg",
+      titlePath: "/public/images/movies/f1_title_220x54.png",
+      genre: "Action",
+      subTitle: "4 Oscar Nominations Including Best Pictrue.",
+    },
+    {
+      imgPath: "../../public/images/movies/drops_of_god_thumb_274x496nr.jpg",
+      imgPathWide: "../../public/images/movies/drops_of_god_thumb_wide_1250x668sr.jpg",
+      titlePath: "../../public/images/movies/drops_of_gods_title_220x54.png",
+      genre: "Drama",
+      subTitle: "New season.",
+    },
   ];
 
   return (
