@@ -81,12 +81,12 @@ export default function Header() {
                   )}
                   {console.log(menuData.largeContent)}
                   {menuData.largeContent.map((link, i) => (
-                    <p className="mb-1 text-2xl font-semibold" key={i}>
+                    <p className="mb-1 text-2xl font-semibold cursor-pointer" key={i}>
                       {link}
                     </p>
                   ))}
                   {menuData.smallContent.map((link, i) => (
-                    <p className="text-lg font-semibold" key={i}>
+                    <p className="text-lg font-semibold cursor-pointer" key={i}>
                       {link}
                     </p>
                   ))}
@@ -125,14 +125,14 @@ export default function Header() {
                       <p className="mb-4 text-gray-500 text-[13px]">
                         {item.title}
                       </p>
-                      <ul className="font-semibold text-gray-900 text-[22px]">
+                      <ul className="font-semibold text-gray-900 cursor-pointer text-[22px]">
                         {item.largeContent.map((link, i) => (
                           <li className="mb-1" key={i}>
                             {link}
                           </li>
                         ))}
                       </ul>
-                      <ul className="mt-5 font-semibold text-gray-800 text-[14px]">
+                      <ul className="mt-5 font-semibold text-gray-800 cursor-pointer text-[14px]">
                         {item.smallContent.map((link, i) => (
                           <li className="mb-1" key={i}>
                             {link}
