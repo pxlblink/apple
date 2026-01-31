@@ -24,10 +24,10 @@ export default function MediaGalary() {
       subTitle: "4 Oscar Nominations Including Best Pictrue.",
     },
     {
-      imgPath: "../../public/images/movies/drops_of_god_thumb_274x496nr.jpg",
+      imgPath: "/public/images/movies/drops_of_god_thumb_274x496nr.jpg",
       imgPathWide:
-        "../../public/images/movies/drops_of_god_thumb_wide_1250x668sr.jpg",
-      titlePath: "../../public/images/movies/drops_of_gods_title_220x54.png",
+        "/public/images/movies/drops_of_god_thumb_wide_1250x668sr.jpg",
+      titlePath: "/public/images/movies/drops_of_gods_title_220x54.png",
       genre: "Drama",
       subTitle: "New season.",
     },
