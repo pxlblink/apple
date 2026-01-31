@@ -79,7 +79,6 @@ export default function Header() {
                       {menuData.title}
                     </p>
                   )}
-                  {console.log(menuData.largeContent)}
                   {menuData.largeContent.map((link, i) => (
                     <p className="mb-1 text-2xl font-semibold cursor-pointer" key={i}>
                       {link}
