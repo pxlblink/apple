@@ -160,7 +160,7 @@ export default function Footer() {
         Features are subject to change. Some features, applications, and
         services may not be available in all regions or all languages.
       </p>
-      <div className="text-[rgba(0,0,0,0.88)]">
+      <div className="pt-6 mt-2 border-t md:hidden border-[rgba(0,0,0,0.16)] text-[rgba(0,0,0,0.88)]">
         {footerLinks.map((item, i) => (
           <Accordion
             key={i}
@@ -177,32 +177,42 @@ export default function Footer() {
           />
         ))}
       </div>
+      <div className="pt-4 mt-4 border-t border-[rgba(0,0,0,0.16)] columns-5">
+        {footerLinks.map((item, i) => (
+          <div key={i} className="mb-5 break-inside-avoid">
+            <p className="mb-2 font-semibold text-gray-700">{item.title}</p>
+            {item.links.map((link, i) => (
+              <p key={i} className="my-1 cursor-pointer hover:underline">
+                {link}
+              </p>
+            ))}
+          </div>
+        ))}
+      </div>
       <p className="pb-4 mt-3 md:border-b text-balance border-[rgba(255,255,255,0.24)]">
         More ways to shop:{" "}
-        <a className="text-blue-400 underline" href="">
+        <a className="text-blue-500 underline" href="">
           Find an Apple Store
         </a>{" "}
         or{" "}
-        <a className="text-blue-400 underline" href="">
+        <a className="text-blue-500 underline" href="">
           other retailer
         </a>{" "}
         near you. Or call{" "}
-        <a className="text-blue-400 underline" href="">
+        <a className="text-blue-500 underline" href="">
           1-800-MY-APPLE
         </a>{" "}
         (1-800-692-7753).
       </p>
-      <div className="flex flex-col gap-2 lg:flex-row-reverse lg:justify-between lg:items-center">
-        <a className="my-2 hover:underline text-[.78rem]" href="">
+      <div className="flex flex-col gap-2 md:flex-row-reverse md:justify-between md:items-center">
+        <a className="my-2 text-gray-600 hover:underline text-[.78rem]" href="">
           United States
         </a>
         <a>Copyright © 2026 Apple Inc. All rights reserved.</a>
       </div>
-      <div className="flex gap-4">
-        <a href="">Privacy Policy</a>
-        <a href="">Term of Use</a>
-        <a href="">Sales and Refunds</a>
-        <a href="">Legal</a>
+      <div className="flex flex-wrap gap-2 text-gray-600">
+        <a href="">Privacy Policy</a>|<a href="">Term of Use</a>|
+        <a href="">Sales and Refunds</a>|<a href="">Legal</a>|
         <a href="">Site map</a>
       </div>
     </div>
