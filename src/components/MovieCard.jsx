@@ -15,10 +15,7 @@ export default function MovieCard({
     >
       <div className="flex flex-col justify-between items-center w-full h-full text-center via-[rgba(200,200,200,.1)] to-[rgba(40,40,40,.6)] from-[rgba(20,20,20,.6)] bg-linear-to-t">
         <div className="flex flex-col gap-3 items-center pt-4 w-full md:invisible">
-          <img
-            src="/public/images/logo_hero_light__d7t8cya4x26a_small.png"
-            alt=""
-          />
+          <img src="/images/logo_hero_light__d7t8cya4x26a_small.png" alt="" />
           <img src={titlePath} alt="" />
         </div>
         <div className="flex flex-col-reverse items-center py-4 w-full text-white md:flex-row md:gap-4 md:py-8 md:pl-8 bg-blend-multiply">

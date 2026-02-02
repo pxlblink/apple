@@ -11,11 +11,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Shop iPhone",
       bgImgUrl:
-        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
+        "/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg",
       bgImgUrlSm:
-        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
+        "/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg",
       bgImgUrlLg:
-        "/public/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
+        "/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg",
     },
     {
       header: "Apple Watch Series 11",
@@ -24,11 +24,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
+        "/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_small.jpg",
       bgImgUrlSm:
-        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
+        "/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_medium.jpg",
       bgImgUrlLg:
-        "/public/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
+        "/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_large.jpg",
     },
     {
       header: "iPad air",
@@ -36,11 +36,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "/public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
+        "/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
       bgImgUrlSm:
-        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
+        "/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
       bgImgUrlLg:
-        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
+        "/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
     },
   ];
 
@@ -51,11 +51,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_small.jpg",
+        "/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_small.jpg",
       bgImgUrlSm:
-        "../public/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg",
+        "/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg",
       bgImgUrlLg:
-        "../public/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large.jpg",
+        "/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large.jpg",
     },
     {
       header: "Apple Watch",
@@ -63,11 +63,11 @@ function App() {
         "The new Black Unity band. Inspired by the power of connection.",
       btnOneText: "Shop",
       bgImgUrl:
-        "../public/images/promos/apple-watch-unity/promo_apple_watch_unity__casvx9ysh1le_small.jpg",
+        "/images/promos/apple-watch-unity/promo_apple_watch_unity__casvx9ysh1le_small.jpg",
       bgImgUrlSm:
-        "../public/images/promos/apple-watch-unity/promo_apple_watch_unity__casvx9ysh1le_medium.jpg",
+        "/images/promos/apple-watch-unity/promo_apple_watch_unity__casvx9ysh1le_medium.jpg",
       bgImgUrlLg:
-        "../public/images/promos/apple-watch-unity/promo_apple_watch_unity__casvx9ysh1le_large.jpg",
+        "/images/promos/apple-watch-unity/promo_apple_watch_unity__casvx9ysh1le_large.jpg",
       textColor: "white",
       btnOneBg: "white",
       btnOneTextColor: "black",
@@ -78,11 +78,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "/public/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
+        "/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_small.jpg",
       bgImgUrlSm:
-        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
+        "/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_medium.jpg",
       bgImgUrlLg:
-        "/public/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
+        "/images/heroes/ipad-air/hero_ipad_air__enn6321t3tkm_large.jpg",
     },
     {
       header: "iPad Pro",
@@ -90,11 +90,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Buy",
       bgImgUrl:
-        "../public/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_small.jpg",
+        "/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_small.jpg",
       bgImgUrlSm:
-        "../public/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_medium.jpg",
+        "/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_medium.jpg",
       bgImgUrlLg:
-        "../public/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_large.jpg",
+        "/images/promos/ipad-pro/promo_ipad_pro__c529dk533k4m_large.jpg",
       textColor: "white",
     },
     {
@@ -103,11 +103,11 @@ function App() {
         "Get up to $180-$650 in credit when you trade in iPhone 13 or higher.",
       btnOneText: "Get your estimate",
       bgImgUrl:
-        "../public/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small.jpg",
+        "/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small.jpg",
       bgImgUrlSm:
-        "../public/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg",
+        "/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg",
       bgImgUrlLg:
-        "../public/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg",
+        "/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg",
     },
     {
       header: "Apple Card",
@@ -115,11 +115,11 @@ function App() {
       btnOneText: "Learn more",
       btnTwoText: "Apply now",
       bgImgUrl:
-        "../public/images/promos/apple-card/promo_apple_card__5cm7draujpey_small.jpg",
+        "/images/promos/apple-card/promo_apple_card__5cm7draujpey_small.jpg",
       bgImgUrlSm:
-        "../public/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg",
+        "/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg",
       bgImgUrlLg:
-        "../public/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg",
+        "/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg",
     },
   ];
 
