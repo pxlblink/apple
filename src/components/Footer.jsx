@@ -177,7 +177,7 @@ export default function Footer() {
           />
         ))}
       </div>
-      <div className="pt-4 mt-4 border-t border-[rgba(0,0,0,0.16)] columns-5">
+      <div className="hidden pt-4 mt-4 border-t md:block border-[rgba(0,0,0,0.16)] columns-5">
         {footerLinks.map((item, i) => (
           <div key={i} className="mb-5 break-inside-avoid">
             <p className="mb-2 font-semibold text-gray-700">{item.title}</p>
